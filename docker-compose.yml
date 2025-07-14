@@ -16,7 +16,7 @@ services:
       - PGDATABASE=attendance_db
 
   employee-attendance:
-    container_name: employee-attendance
+    container_name: employee1-attendance
     build: ./Employee-attendance
     ports:
       - "8015:80"
